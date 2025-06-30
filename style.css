@@ -1,0 +1,42 @@
+#about {
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Align items vertically centered */
+}
+
+img {
+    object-fit: cover; /* Prevents image stretching */
+    width: 128px; /* Adjust width as needed */
+    height: 128px; /* Adjust height as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
